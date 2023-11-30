@@ -1,0 +1,101 @@
+// home.scss
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$light-gray: #f8f9fa;
+
+.container-home {
+  margin-top: 2rem;
+}
+
+h2 {
+  color: $primary-color;
+}
+
+.content-blog {
+  border: 1px solid $light-gray;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .content-user {
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .icon-user {
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
+    }
+
+    .content-name-public {
+      display: flex;
+      flex-direction: column;
+
+      .name {
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+
+        span {
+          margin-right: 0.5rem;
+        }
+
+        .icon-earth {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .blog {
+    margin-bottom: 1rem;
+
+    .content {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .like-comments-share {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid $light-gray;
+
+    .content-feature {
+      display: flex;
+      align-items: center;
+
+      .icon-feature {
+        margin-right: 0.5rem;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .modal-comments {
+    padding: 1rem;
+
+    .form-input-comment {
+      display: flex;
+
+      .input-comment {
+        flex: 1;
+        margin-right: 0.5rem;
+      }
+
+      .icon-send {
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
