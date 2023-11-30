@@ -11,7 +11,6 @@ Hiển thị các bài Post
 
 ![image](https://github.com/quyentrann/www_lab6_week6/assets/87223234/c6d6f3f8-2900-405e-bc59-ad4f44302183)
 
-Có thể Like
 
 ![image](https://github.com/quyentrann/www_lab6_week6/assets/87223234/93435b37-28fb-4e89-89e3-e0b52fac65bb)
 
